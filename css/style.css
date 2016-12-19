@@ -152,7 +152,7 @@ donate {
   font-weight: bold;
 }
 
-.faq-answer {
+.faq-answer, .theme-blurb {
   font-weight: normal;
   font-size: .8em;
   line-height: 1.5em;
