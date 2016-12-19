@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
-  font-family: 'Open Sans', Arial, sans-serif; /*Roboto,*/ 
+  font-family: 'Open Sans', Arial, sans-serif; /*Roboto,*/
   font-size: 2em;
   line-height: 2em;
   padding-top: 100px;
@@ -168,6 +168,27 @@ donate {
   overflow: visible;
 }
 
+#themes {
+	margin-top: 100px;
+  margin-bottom: 100px;
+	text-align: center;
+	overflow: visible;
+}
+
+#themes header {
+	margin-left: 10%;
+  margin-right: 10%;
+}
+
+#themes .row {
+	margin-left: -10%;
+	margin-right: -10%;
+}
+
+.theme-icon {
+	font-size: 250%;
+}
+
 #about, #judges, #FAQ {
     color: #000;
 }
@@ -195,14 +216,12 @@ h2 {
   color: #000;
   font-size: 50px;
   letter-spacing: 10px;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
-.cc-icon {
-  margin-left: 0.4%;
-  margin-right: 0.4%;
-  margin-top: 0.2%;
-  margin-bottom: 1%;
+#themes h3 {
+	font-family: LemonMilk;
+	line-height: 1.6;
 }
 
 #left {
