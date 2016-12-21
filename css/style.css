@@ -260,10 +260,7 @@ td {
   background-color: #116798;
 }
 
-.theme-box {
-	/* FIXME make them all the same height */
-	min-height: 40%;
-}
+/* Background colors for theme boxes on index.html */
 
 .theme-box-globalization {
 	background-color: rgba(66, 134, 244, 0.5);
@@ -279,4 +276,16 @@ td {
 
 .theme-box-climate-change {
 	background-color: rgba(80, 244, 66, 0.5);
+}
+
+/* Make them all the same height, courtesy of http://stackoverflow.com/a/19695851/2276567 */
+
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
 }
