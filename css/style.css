@@ -181,8 +181,9 @@ donate {
 }
 
 #themes .row {
-	margin-left: -10%;
-	margin-right: -10%;
+	/* Make it stretch across the entire page */
+	margin-left: -15%;
+	margin-right: -15%;
 }
 
 .theme-icon {
@@ -257,4 +258,25 @@ td {
 
 #where {
   background-color: #116798;
+}
+
+.theme-box {
+	/* FIXME make them all the same height */
+	min-height: 40%;
+}
+
+.theme-box-globalization {
+	background-color: rgba(66, 134, 244, 0.5);
+}
+
+.theme-box-mental-health {
+	background-color: rgba(244, 66, 155, 0.5);
+}
+
+.theme-box-inequality {
+	background-color: rgba(244, 215, 66, 0.5);
+}
+
+.theme-box-climate-change {
+	background-color: rgba(80, 244, 66, 0.5);
 }
