@@ -219,29 +219,9 @@ h2 {
   word-wrap: break-word;
 }
 
-#themes h3 {
+#themes h3, #sponsors h3 {
 	font-family: LemonMilk;
 	line-height: 1.6;
-}
-
-#left {
-  font-size: 14px;
-  line-height: 14px;
-  text-align: left;
-  position: relative;
-  float: left;
-  display: inline-block;
-  width: 50%;
-}
-
-#right {
-  font-size: 14px;
-  line-height: 14px;
-  text-align: right;
-  width: 50%;
-  position: relative;
-  float: right;
-  display: inline-block;
 }
 
 td {
@@ -259,14 +239,24 @@ td {
   background-color: #116798;
 }
 
-/* Make them all the same height, courtesy of http://stackoverflow.com/a/19695851/2276567 */
-
-.row {
-    display: table;
+#sponsors h3 {
+	margin-top: 2em;
 }
 
-[class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
+/* This centers the sponsor logos vertically */
+
+#sponsors [class*="col-"] {
+	vertical-align: middle;
+}
+
+/* Formatting for legal notices */
+
+#legal {
+  font-size: 14px;
+  line-height: 1.25;
+  text-align: center;
+  position: relative;
+  float: center;
+  display: inline-block;
+  width: 75%;
 }
