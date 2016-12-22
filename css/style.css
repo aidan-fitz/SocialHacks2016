@@ -249,7 +249,7 @@ td {
 
 /* This centers the sponsor logos vertically */
 
-#sponsors [class*="col-"] {
+#sponsors img {
 	vertical-align: middle;
 }
 
