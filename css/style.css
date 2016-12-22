@@ -238,6 +238,10 @@ td {
   width: 90%;
  }
 
+#FAQ a, #FAQ a:link, #FAQ a:hover, #FAQ a:active, #FAQ a:visited {
+	color: white;
+	text-decoration: underline;
+}
 
 #where {
   background-color: #116798;
