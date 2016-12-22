@@ -251,9 +251,11 @@ td {
 	margin-top: 2em;
 }
 
-/* This centers the sponsor logos vertically */
+/* FIXME center the sponsor logos */
 
-#sponsors img {
+#sponsors img, #sponsors [class*="col-"] {
+	text-align: center;
+	float: center;
 	vertical-align: middle;
 }
 
