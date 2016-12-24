@@ -162,7 +162,7 @@ donate {
   line-height: 1.5em;
 }
 
-#about, #FAQ, #schedule, #judges, #sponsors {
+#about, #FAQ, #schedule, #judges, #sponsors, #staff {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 10%;
@@ -257,6 +257,34 @@ td {
 	text-align: center;
 	float: center;
 	vertical-align: middle;
+}
+
+/* Formatting the staff positions */
+
+#staff .row {
+	text-align: left;
+	line-height: 1.25;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#staff [class*="col-"] {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+#staff .school {
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+#staff .position {
+	font-family: LemonMilk;
+	font-size: 0.625em;
+}
+
+#staff a {
+	color: black;
 }
 
 /* Formatting for legal notices */
