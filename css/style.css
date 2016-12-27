@@ -223,7 +223,7 @@ h2 {
   word-wrap: break-word;
 }
 
-#themes h3, #sponsors h3 {
+h3 {
 	font-family: LemonMilk;
 	line-height: 1.6;
 }
