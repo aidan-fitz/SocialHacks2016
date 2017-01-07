@@ -162,7 +162,11 @@ donate {
   line-height: 1.5em;
 }
 
-#about, #FAQ, #schedule, #judges, #sponsors, #staff {
+.row-custom {
+	text-align: left;
+}
+
+#about, #FAQ, #schedule, #judges, #sponsors, #staff, #itinerary {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 10%;
