@@ -354,18 +354,6 @@ footer {
 }
 
 #hack img {
-	width: 400px;
+	width: 100%;
 	height: 300px;
-}
-
-#left {
-	float: left;
-	width: 50%;
-	position: relative;
-}
-
-#right {
-	float: right;
-	width: 50%;
-	position: relative;
 }
