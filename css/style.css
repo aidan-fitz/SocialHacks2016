@@ -25,6 +25,11 @@ body {
 	font-weight: normal;
 }
 
+#navbar a:hover {
+	color: #337ab7!important;
+	background-color: #fff;
+}
+
 
 #landing {
 
