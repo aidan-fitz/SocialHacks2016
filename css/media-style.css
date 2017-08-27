@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+    #line-break {
+    	padding-top: 20%;
+    }
+
+    #about {
+    	padding-top: 23%;
+    }
+
+    button.navbar-toggle.collapsed, button.navbar-toggle {
+    	border: none;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    	background-color: #175eac;
+    	border: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+    	background-color: #fff;
+	}
+
+	div#content {
+	    margin-left: 0;
+    	margin-right: 0;
+	}
+
+}
