@@ -10,4 +10,4 @@ Website for Social Hacks (February 2018)
 ## previous layout
 ### January 2017
 
-![landing page](img/screenshots/1-landingpage.png =250x)
+![landing](img/screenshots/1-landingpage.png =250x)
